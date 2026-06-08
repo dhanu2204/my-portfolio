@@ -90,7 +90,8 @@ export const portfolioData = {
     {
       title: "Full Stack Web Development Certification",
       issuer: "Tap Academy",
-      year: "2026"
+      year: "2026",
+      link: "/tap_certificate.pdf"
     }
   ],
   hobbies: ["Photography", "Videography", "Video Editing", "Travelling", "Reading Manga"]

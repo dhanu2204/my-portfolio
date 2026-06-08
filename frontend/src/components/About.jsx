@@ -46,7 +46,13 @@ const About = () => {
           </div>
           <div className="cert-list">
             {certifications.map((cert, index) => (
-              <div key={index} className="cert-card glass-card">
+              <div 
+                key={index} 
+                className="cert-card glass-card"
+                onClick={() => cert.link && window.open(cert.link, '_blank')}
+                style={{ cursor: cert.link ? 'pointer' : 'default' }}
+                title={cert.link ? "Click to view certificate" : ""}
+              >
                 <h4 className="cert-title">{cert.title}</h4>
                 <p className="cert-issuer">{cert.issuer} • {cert.year}</p>
               </div>
