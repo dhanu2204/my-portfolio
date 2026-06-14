@@ -23,7 +23,6 @@ const getSkillLogo = (skillName) => {
     'html5': 'html5/html5-original.svg',
     'css': 'css3/css3-original.svg',
     'react': 'react/react-original.svg',
-    'tailwindcss': 'tailwindcss/tailwindcss-original.svg',
     'springboot': 'spring/spring-original.svg',
     'hibernate': 'hibernate/hibernate-original.svg',
     'mysql': 'mysql/mysql-original.svg',

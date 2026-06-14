@@ -17,11 +17,11 @@ export const portfolioData = {
     },
     {
       category: "Front-End",
-      items: ["HTML5", "CSS", "React", "Tailwind CSS"]
+      items: ["HTML5", "CSS", "React"]
     },
     {
       category: "Back-End",
-      items: ["Spring Boot", "JDBC", "Servlets", "Hibernate", "Node.js", "Express.js", "WebSocket", "RESTful APIs"]
+      items: ["Spring Boot", "JDBC", "Servlets", "Hibernate", "Node.js", "Express.js", "RESTful APIs"]
     },
     {
       category: "Databases",
