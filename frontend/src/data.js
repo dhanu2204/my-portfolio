@@ -21,11 +21,15 @@ export const portfolioData = {
     },
     {
       category: "Back-End",
-      items: ["Spring Boot", "JDBC", "Servlets", "Hibernate", "WebSocket", "RESTful APIs"]
+      items: ["Spring Boot", "JDBC", "Servlets", "Hibernate", "Node.js", "Express.js", "WebSocket", "RESTful APIs"]
     },
     {
       category: "Databases",
-      items: ["MySQL"]
+      items: ["MySQL", "MongoDB"]
+    },
+    {
+      category: "Cloud",
+      items: ["Docker"]
     }
   ],
   projects: [
@@ -63,6 +67,18 @@ export const portfolioData = {
         "Developed a responsive food delivery platform using a React.js frontend and a Spring Boot backend, ensuring seamless communication via RESTful APIs.",
         "Built features to browse restaurants and food items with filtering capabilities (Cuisine, Veg/Non-Veg) and real-time search.",
         "Integrated a persistent shopping cart using React Context API and developed a backend order processing system to handle checkouts and order history."
+      ]
+    },
+    {
+      title: "Agricultural Advisory Platform",
+      techStack: ["React", "Node.js", "Express.js", "MongoDB", "Sarvam AI"],
+      image: "/agri.png",
+      github: "https://github.com/dhanu2204/Agri",
+      live: "https://agri-one.vercel.app",
+      description: [
+        "Designed and developed a multilingual agricultural advisory platform that enables farmers to check real time market prices of crops and provides location-based weather updates, helping them make informed farming decisions.",
+        "Integrated voice-based assistance using Sarvam API with speech-to-text and text-to-speech support in English, Hindi, and Kannada for improved accessibility.",
+        "Implemented Calculator that calculates the amount of crop and minerals required based on the land measurement."
       ]
     }
   ],

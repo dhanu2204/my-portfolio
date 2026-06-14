@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code2, Server, Database, Layout } from 'lucide-react';
+import { Code2, Server, Database, Layout, Cloud } from 'lucide-react';
 import { portfolioData } from '../data';
 import './Skills.css';
 
@@ -10,6 +10,7 @@ const getIconForCategory = (category) => {
     case 'Front-End': return <Layout size={24} className="text-gradient" />;
     case 'Back-End': return <Server size={24} className="text-gradient" />;
     case 'Databases': return <Database size={24} className="text-gradient" />;
+    case 'Cloud': return <Cloud size={24} className="text-gradient" />;
     default: return <Code2 size={24} className="text-gradient" />;
   }
 };
@@ -25,7 +26,11 @@ const getSkillLogo = (skillName) => {
     'tailwindcss': 'tailwindcss/tailwindcss-original.svg',
     'springboot': 'spring/spring-original.svg',
     'hibernate': 'hibernate/hibernate-original.svg',
-    'mysql': 'mysql/mysql-original.svg'
+    'mysql': 'mysql/mysql-original.svg',
+    'node.js': 'nodejs/nodejs-original.svg',
+    'express.js': 'express/express-original.svg',
+    'docker': 'docker/docker-original.svg',
+    'mongodb': 'mongodb/mongodb-original.svg'
   };
   
   const path = iconMap[normalized];
